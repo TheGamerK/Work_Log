@@ -1,10 +1,3 @@
-
-
-/*@font-face {
-    font-family:Digitalix;
-    src: url(../Fonts/digitalix.ttf);
-    }*/
-
 body{
 
     background:url(../bgblue.png) no-repeat center fixed;
@@ -12,7 +5,7 @@ body{
 }
 
 #stopwatch {
-   /*background:url(../BackgroundPur.jpg) no-repeat center fixed;*/
+   
     background:url(../bgblue.png) no-repeat center fixed;
     background-size: cover;
     background-position: center center;
@@ -256,10 +249,4 @@ li::after {
   display: none;
 }
 
-/*fonts*/
 
-
-
-/*==========================
-============================
-==========================*/

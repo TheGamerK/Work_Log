@@ -78,7 +78,7 @@ var width = (minutes + (seconds/60))/target * 100;
 //
 // SAVE A MILESTONE
 var person;
-var milestone = "Time";
+var milestone;
 
 function saveMilestone() {
     var person = prompt("What did you work on?", "");
@@ -177,10 +177,12 @@ function add(){
     localStorage.setItem("newL", JSON.stringify(newL));
     var storedNames = JSON.parse(localStorage.getItem("newL"));
     
+    stored.push = (storedNames);
+    
 }
 
     //alert(names +  " js names array");
-
+ 
     //alert(typeof(names));
     //alert(newL);
     
@@ -194,15 +196,18 @@ function add(){
 
     //alert(typeof(storedNames));
 
-
+var storedNames = JSON.parse(localStorage.getItem("newL"));
 
 function myFunction(){
- alert(newL);
- alert(localStorage.getItem("newL"));
+ //alert(newL);
+ //alert(localStorage.getItem("newL"));
+    
+ document.getElementById("demo").innerHTML = storedNames;   
 }
 
-function clear(){
+function clearL(){
     
-    window.localStorage.clear();
+    window.localStorage.clear(); //try this to clear all local storage
+
     
 }
