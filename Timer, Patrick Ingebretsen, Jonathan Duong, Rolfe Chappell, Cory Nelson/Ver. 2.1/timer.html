@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>Worklog</title>
+    
+    <link rel="stylesheet" href="css/style_2.css">
+    <link rel="stylesheet" href="css/styleslide.css">
+    <!--<link rel="stylesheet" href="css/style.css">-->
+</head>
+<body>
+    <div id="stopwatch">
+        <!-- Hidden -->
+        <p id="targetTime">Current Target: <span id="targetOutput">1</span> minute(s)</p>
+        <h1 id="output">0:0:0</h1>
+            <button id="startPause" class="startPause" onclick="startPause()">START</button>
+            <button class="reset" onclick="reset(); clearL(); cL()">RESET</button>
+            <!--<button class="endlog" onclick="add()">ENDLOG</button>-->
+        <!-- Hidden -->
+        <div id="bar-box">
+            <div id="bar">
+                <div id="progress"></div>
+            </div>
+        </div>
+            <button id="mstBtn" onclick="saveMilestone(); add()">LOG TIME</button>
+        <!-- Scroll for the time laps -->
+        <div id="scroll">
+        <div id="milestones">
+    <ol>
+      
+        
+        
+    </ol>
+            
+        </div>  
+        </div>
+        <a href="save.html"><button id="mstBtn">DOWNLOAD LOG</button></a>
+        <div id="demo"></div>
+    </div>    
+<script src="js/clock.js"></script>
+<script src="js/index.js"></script>
+
+    
+</body>
+</html>

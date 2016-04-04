@@ -1,0 +1,257 @@
+body{
+
+    background:url(../bgblue.png) no-repeat center fixed;
+    background-color:black;
+    
+}
+
+#stopwatch {
+   
+    background:url(../bgblue.png) no-repeat center fixed;
+    background-size: cover;
+    background-position: center center;
+    padding: 10px;
+    width:300px;
+    height: 605px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+/* Changes the look of time */
+h1 {
+    color: #c6d0e0;
+    font-size: 60px;
+    font-family: 'mishmash BRK';
+    font-weight: 100px;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-shadow: 0 0 5px white;
+    padding: 0px;
+}
+
+p {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color:;
+    width: 80%;
+    font-size:8px;
+    font-family: 'mishmash BRK', 'mishmash BRK';
+    letter-spacing: 1px;
+    padding: 5px 0;
+    overflow-y:inherit; 
+    overflow-x:hidden;
+}
+
+
+#targetTime {
+    text-shadow: 2px 2px 5px black;
+    opacity: 0.0;
+}
+
+
+.startPause {
+    width: 80px;
+    height: 30px;
+    margin: 0 0px 0px 0px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'mishmash BRK';
+}
+
+
+.startPause:focus {
+    outline:0;
+}
+
+
+.reset {
+    width: 75px;
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'mishmash BRK';
+}
+
+.reset:focus {
+    outline:0;
+    
+}
+
+.endlog {
+    width:  80px;
+    height: 30px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: 1px;
+    font-family: 'mishmash BRK';
+    
+}
+
+.endlog:focus {
+    outline:0;
+}
+
+.startPause {
+  padding: 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #8389aa;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.startPause:hover {background-color:#8389aa}
+
+.startPause:active {
+  background-color:#666e89;
+  
+  transform: translateY(4px);
+}
+
+.reset {
+  padding: 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #8389aa;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+.buttonA:hover {background-color:#8389aa}
+
+.reset:active {
+  background-color:#666e89;
+  
+  transform: translateY(4px);
+}
+
+.endlog {
+  padding: 0px 0px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #8389aa;
+  border: none;
+  border-radius: 15px;
+  
+
+
+}
+
+.endlog:hover {background-color:#8389aa
+
+}
+
+.endlog:active {
+  background-color:#666e89;
+  
+  transform: translateY(4px);
+}
+    
+
+
+
+#bar {
+    width: 60%;
+    background-color: rbga(255, 255, 255, 1);
+    height: 10px;
+    border: 1px solid white;
+    margin: 0 auto;
+    opacity: 0.0;
+  
+}
+
+#progress {
+    width: 0;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 5px rgb(0, 200, 255), 0 0 10px white;
+}
+
+/*logtime button*/
+#mstBtn {
+    position: relative;
+    top: 20px;
+    width: 95%;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #8389aa;
+    box-shadow: 0 0 10px #8389aa;
+    border-radius: 30px;
+    font-family: 'mishmash BRK';
+    margin-bottom:40px;
+}
+
+
+/*table color*/
+#milestones {
+    width: 80%;
+    background-color:;
+
+    position: relative;
+    top: 10px;
+}
+
+ol {
+    width: 100%;
+}
+
+ol li {
+    font-size: 23px;
+    color: white;
+    text-align: left;
+    font-family: 'tandysoft';
+    letter-spacing: 2px;
+    height: 30px;
+    width: 100%;
+    list-style-type: none;
+}
+
+li::after {
+    display: block;
+    width: 100px;
+    height: 5px;
+    color: red;
+    background-color:#a16796;
+}
+
+#scroll{
+    
+    position:relative;
+    overflow-y: inherit;
+    overflow-x: hidden;
+    margin-top:10px;
+    width: 300px; 
+    height: 200px;
+}
+
+#scroll::-webkit-scrollbar { 
+  /* This is the magic bit */
+  display: none;
+}
+
+#demo{
+    
+    color:transparent;
+    
+}
